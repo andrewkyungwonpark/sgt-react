@@ -9,6 +9,7 @@ function GradeTable(props) {
           <th scope="col">Student Name</th>
           <th scope="col">Course</th>
           <th scope="col">Grade</th>
+          <th scope="col">Operations</th>
         </tr>
       </thead>
       <tbody>
@@ -16,6 +17,7 @@ function GradeTable(props) {
           props.grades.map(grade => {
             return (
               <Grade
+                delete={props.delete}
                 key={grade.id}
                 grade={grade}
               />
