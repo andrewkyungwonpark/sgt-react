@@ -17,6 +17,18 @@
       "name": "Douglas Crockford",
       "course": "JavaScript",
       "grade": 100
+    },
+    {
+      "name": "Andrew Park",
+      "course": "Wumbology",
+      "grade": 90,
+      "id": 33
+    },
+    {
+      "name": "Tim Davis",
+      "course": "F-Tilt Spacing",
+      "grade": 85,
+      "id": 34
     }
   ]
 }
