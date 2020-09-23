@@ -6,7 +6,7 @@ function Header(props) {
       <h1 className="col-lg-8">
         { props.text }
       </h1>
-      <h4 className="col-lg text-right">
+      <h4 className="col-lg">
         Average Grade<span className="badge badge-secondary ml-2">
           {String(props.average)}
         </span>

@@ -1,0 +1,14 @@
+@media screen and (max-width: 992px) {
+  header {
+    text-align: center;
+  }
+  h4 {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 993px) {
+  h4 {
+    text-align: right;
+  }
+}
